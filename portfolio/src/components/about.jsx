@@ -1,4 +1,6 @@
-var NewComponent = React.createClass({
+import React from 'react';
+
+var about = React.createClass({
     render: function () {
         return (
             <div>
@@ -54,3 +56,5 @@ var NewComponent = React.createClass({
         );
     }
 });
+
+export default about;

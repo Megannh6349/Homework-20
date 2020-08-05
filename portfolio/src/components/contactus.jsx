@@ -1,4 +1,6 @@
-var NewComponent = React.createClass({
+import React from 'react';
+
+var contactus = React.createClass({
     render: function () {
         return (
             <div>
@@ -100,3 +102,5 @@ var NewComponent = React.createClass({
         );
     }
 });
+
+export default contactus;

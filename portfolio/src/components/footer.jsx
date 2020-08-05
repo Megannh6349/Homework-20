@@ -1,4 +1,6 @@
-var NewComponent = React.createClass({
+import React from 'react';
+
+var footer = React.createClass({
     render: function () {
         return (
             <div>
@@ -36,3 +38,5 @@ var NewComponent = React.createClass({
         );
     }
 });
+
+export default footer;
