@@ -10,9 +10,17 @@ export default class App extends Component {
       <div>
         <Row>
           <Col className="sidebar"
-          s={1}>sidebar</Col>
+          s={2}>
+            <h3>Megan Henning</h3>
+            <hr />
+            <p><i className="material-icons">contact_mail</i><a href="mailto:megannh6349@gmail.com">megannh6349@gmail.com</a></p>
+            <p><i className="material-icons">contact_phone</i>(732) 236-0920</p>
+
+
+
+          </Col>
           <Col className="mainLanding"
-          s={1}>mainLanding</Col>
+          s={10}>mainLanding</Col>
         </Row>
       </div>
     )
