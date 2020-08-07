@@ -36,3 +36,16 @@
     transform: rotate(360deg);
   }
 }
+
+.sidebar {
+  background-color: #4747479d;
+  width: 20%;
+  height: 100%;
+
+}
+
+.mainLanding {
+  background-color: #7070709d;
+  width: 80%;
+  height: 100%;
+}
