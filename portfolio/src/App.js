@@ -13,7 +13,7 @@ export default class App extends Component {
             s={2}>
             <h3>Megan Henning</h3>
             <hr />
-            <p><i className="material-icons">contact_mail</i><a href="mailto:megannh6349@gmail.com">megannh6349@gmail.com</a></p>
+            <p><i className="material-icons">contact_mail</i><a target="_blank" href="mailto:megannh6349@gmail.com">megannh6349@gmail.com</a></p>
             <p><i className="material-icons">contact_phone</i>(732) 236-0920</p>
             <hr />
             <div class="collection">
@@ -23,9 +23,9 @@ export default class App extends Component {
               <a href="#Projects" class="collection-item">Projects</a>
             </div>
             <hr />
-            <a href="https://github.com/Megannh6349" className="icons"><img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/github.svg" /></a>
-            <a href="https://www.linkedin.com/in/megan-henning/" className="icons"><img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" /></a>
-            <a href="https://www.codecademy.com/profiles/Megannh6349" className="icons"><img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/codecademy.svg" /></a>
+            <a target="_blank" href="https://github.com/Megannh6349" className="icons"><img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/github.svg" /></a>
+            <a target="_blank" href="https://www.linkedin.com/in/megan-henning/" className="icons"><img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" /></a>
+            <a target="_blank" href="https://www.codecademy.com/profiles/Megannh6349" className="icons"><img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/codecademy.svg" /></a>
 
 
 
