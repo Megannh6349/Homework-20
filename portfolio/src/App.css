@@ -37,14 +37,6 @@
   }
 }
 
-.sidebar {
-  background-color: #4747479d;
-}
-
-/* .mainLanding {
-  margin-left: 0px;
-} */
-
 @font-face {
   font-family: "Material Icons";
   font-style: normal;
@@ -76,9 +68,4 @@
 
 i {
   margin: 10px;
-}
-
-.icons {
-  margin: 10%;
-
 }

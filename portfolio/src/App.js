@@ -1,47 +1,43 @@
 import React, { Component } from 'react';
 import './App.css';
-import 'materialize-css';
-import { Row, Col, Parallax } from 'react-materialize';
-
-
-export default class App extends Component {
+import { Footer } from 'react-materialize';
+import meganPro from './components/croppedProPhoto.jpg';
+class App extends Component {
   render() {
     return (
       <div>
-        <Row>
-          <Col className="sidebar"
-            s={2}>
-            <h3>Megan Henning</h3>
-            <hr />
-            <p><i className="material-icons">contact_mail</i><a target="_blank" href="mailto:megannh6349@gmail.com">megannh6349@gmail.com</a></p>
-            <p><i className="material-icons">contact_phone</i>(732) 236-0920</p>
-            <hr />
-            <div class="collection">
-              <a href="#Introduction" class="collection-item">Introduction</a>
-              <a href="#About" class="collection-item">About</a>
-              <a href="#Skills" class="collection-item">Skills</a>
-              <a href="#Projects" class="collection-item">Projects</a>
-            </div>
-            <hr />
-            <a target="_blank" href="https://github.com/Megannh6349" className="icons"><img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/github.svg" /></a>
-            <a target="_blank" href="https://www.linkedin.com/in/megan-henning/" className="icons"><img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" /></a>
-            <a target="_blank" href="https://www.codecademy.com/profiles/Megannh6349" className="icons"><img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/codecademy.svg" /></a>
+        <h1>Hello World</h1>
 
 
-
+        <Footer
+          className="example"
+          copyrights="Copyright Megan Henning 2020"
+          links={<ul><li><a className="grey-text text-lighten-3" href="#!">Link 1</a></li><li><a className="grey-text text-lighten-3" href="#!">Link 2</a></li><li><a className="grey-text text-lighten-3" href="#!">Link 3</a></li><li><a className="grey-text text-lighten-3" href="#!">Link 4</a></li>
+          <li><a target="_blank" rel="noopener noreferrer" href="https://github.com/Megannh6349" className="icons"><img height="32" width="32" alt="github logo" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/github.svg" /></a></li>
+          <li><a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/megan-henning/" className="icons"><img height="32" width="32" alt="linkedin logo" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" /></a></li>
+          <li><a target="_blank" rel="noopener noreferrer" href="https://www.codecademy.com/profiles/Megannh6349" className="icons"><img height="32" width="32" alt="codecademy logo" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/codecademy.svg" /></a></li>
             
-
-
-
-          </Col>
-          <Col className="mainLanding"
-            s={10}>
-            <div>
-              <p>mainLanding</p>
+          </ul>}
+          moreLinks={<a className="grey-text text-lighten-4 right" href="#!">More Links</a>}
+        >
+          <div className="row">
+            <div className="col"><img src={meganPro} height='15%' width='15%' alt="Headshot of Megan" />
             </div>
-          </Col>
-        </Row>
+            <div className="col">
+              <h5 className="white-text">
+                Megan Henning
+              </h5>
+              <p className="grey-text text-lighten-4">
+                <p><i className="material-icons">contact_mail</i><a target="_blank" rel="noopener noreferrer" href="mailto:megannh6349@gmail.com">megannh6349@gmail.com</a></p>
+                <p><i className="material-icons">contact_phone</i>(732) 236-0920</p>
+              </p>
+            </div>
+          </div>
+        </Footer>
       </div>
     )
   }
-};
+}
+
+
+export default App;
