@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import './App.css';
 import { Navbar, Icon, NavItem, Footer } from 'react-materialize';
 import meganPro from './components/croppedProPhoto.jpg';
+import megan1 from './components/megan1.jpg';
+import { ImageBackground, View, Text } from 'react-native';
 class App extends Component {
   render() {
     return (
@@ -38,6 +40,12 @@ class App extends Component {
   </NavItem>
         </Navbar>
 
+        <ImageBackground source={megan1} style={{ width: '100%', height: '100%' }} alt="Picture of Megan">
+          <View style={{ position: 'absolute', top: 0, left: 0, right: 0, bottom: 0, justifyContent: 'center', alignItems: 'center' }}>
+            <Text>Centered text</Text>
+          </View>
+        </ImageBackground>
+
         <h1>Hello World</h1>
 
 
@@ -48,7 +56,7 @@ class App extends Component {
             <li><a target="_blank" rel="noopener noreferrer" href="https://github.com/Megannh6349" className="icons"><img height="32" width="32" alt="github logo" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/github.svg" /></a></li>
             <li><a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/megan-henning/" className="icons"><img height="32" width="32" alt="linkedin logo" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" /></a></li>
             <li><a target="_blank" rel="noopener noreferrer" href="https://www.codecademy.com/profiles/Megannh6349" className="icons"><img height="32" width="32" alt="codecademy logo" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/codecademy.svg" /></a></li>
-                </ul>}
+          </ul>}
           moreLinks={<a className="grey-text text-lighten-4 right" href="#!">More Links</a>}
         >
           <div className="row">
