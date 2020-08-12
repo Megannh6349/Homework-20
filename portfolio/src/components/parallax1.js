@@ -13,12 +13,12 @@ class Parallax1 extends React.Component {
                         responsiveThreshold: 0
                     }}
                 />
-                <div className="section">
+                <div className="section cyan lighten-2">
                     <div className="row container">
-                        <h1 className="header">
+                        <h1 className="header white-text">
                             Welcome to my portfolio
                     </h1>
-                        <h4 className="grey-text text-darken-3 lighten-3">
+                        <h4 className="white-text">
                             This is just a little something I threw together using React. Here, you'll see a little bit about me, my skills as a developer, and some projects I've done.
                     </h4>
                     </div>
