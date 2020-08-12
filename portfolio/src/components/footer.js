@@ -12,11 +12,9 @@ class FooterComp extends React.Component {
                 <li><a target="_blank" rel="noopener noreferrer" href="https://github.com/Megannh6349" className="icons"><img height="32" width="32" alt="github logo" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/github.svg" /></a></li>
                 <li><a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/megan-henning/" className="icons"><img height="32" width="32" alt="linkedin logo" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" /></a></li>
                 <li><a target="_blank" rel="noopener noreferrer" href="https://www.codecademy.com/profiles/Megannh6349" className="icons"><img height="32" width="32" alt="codecademy logo" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/codecademy.svg" /></a></li>
-            </ul>}
-            moreLinks={<a className="grey-text text-lighten-4 right" href="#!">More Links</a>}
-        >
+            </ul>}>
             <div className="row">
-                <div className="col"><img src={meganPro} height='15%' width='15%' alt="Headshot of Megan" />
+                <div className="col"><img src={meganPro} height='40%' width='40%' alt="Headshot of Megan" />
                 </div>
                 <div className="col">
                     <h5 className="white-text">
