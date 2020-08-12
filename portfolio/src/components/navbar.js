@@ -4,7 +4,7 @@ import { Navbar, Icon, NavItem } from 'react-materialize';
 class NavbarComp extends React.Component {
     render() {
         return (
-            <Navbar className="cyan lighten-2" 
+            <Navbar className="cyan lighten-2"
                 alignLinks="right"
                 brand={<a href="https://megannh6349.github.io/Homework-20/" alt="Link to top" style={{ marginLeft: '2%' }}>Megan Henning</a>}
                 id="mobile-nav"
@@ -21,18 +21,15 @@ class NavbarComp extends React.Component {
                     preventScrolling: true
                 }}
             >
-                <NavItem href="" alt="Link to Home" style={{ marginTop: '25%', marginBottom: '25%' }}>
+                <NavItem href="/" alt="Link to Home" style={{ marginTop: '25%', marginBottom: '25%' }}>
                     Home
-        </NavItem>
-                <NavItem href="#About" alt="Link to About" style={{ marginTop: '25%', marginBottom: '25%' }}>
-                    About
-        </NavItem>
-                <NavItem href="" alt="Link to Skills" style={{ marginTop: '25%', marginBottom: '25%' }}>
+                </NavItem>
+                <NavItem href="/skills" alt="Link to Skills" style={{ marginTop: '25%', marginBottom: '25%' }}>
                     Skills
-        </NavItem>
-                <NavItem href="" alt="Link to Projects" style={{ marginTop: '20%', marginBottom: '30%' }}>
+                </NavItem>
+                <NavItem href="/projects" alt="Link to Projects" style={{ marginTop: '20%', marginBottom: '30%' }}>
                     Projects
-        </NavItem>
+                </NavItem>
             </Navbar>
         )
     }
