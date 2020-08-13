@@ -1,8 +1,8 @@
 import React from 'react';
 import './App.css';
-import NavbarComp from './components/navbar.js';
-
-import FooterComp from './components/footer.js';
+import NavbarComp from './components/navbar';
+import ProjectsPage from './components/projectsPage'
+import FooterComp from './components/footer';
 
 
 class Portfolio extends React.Component {
@@ -10,7 +10,7 @@ class Portfolio extends React.Component {
         return (
             <div>
                 <div id="Home"><NavbarComp /></div>
-                <h1>Projects</h1>
+                <ProjectsPage />
                 <div><FooterComp /></div>
             </div>
         )
