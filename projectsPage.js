@@ -1,9 +1,9 @@
 import React from 'react';
 import { Row, Col, Card, Icon, CardTitle } from 'react-materialize';
-import COVID19App from './img/covid19ss.PNG';
-import BurgerPic from './img/burgerpic.PNG';
-import Blackjack from './img/blackjack.PNG';
-import NoteTaker from './img/notetaker.PNG';
+import COVID19App from './covid19ss.PNG';
+import BurgerPic from './burgerpic.PNG';
+import Blackjack from './blackjack.PNG';
+import NoteTaker from './notetaker.PNG';
 
 class ProjectsPage extends React.Component {
     render() {

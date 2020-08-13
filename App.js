@@ -1,10 +1,10 @@
 import React from 'react';
 import './App.css';
-import NavbarComp from './components/navbar';
-import Parallax1 from './components/parallax1';
-import FooterComp from './components/footer';
-import CarouselComp from './components/carousel';
-import Parallax2 from './components/parallax2';
+import NavbarComp from './navbar'
+import Parallax1 from './parallax1';
+import FooterComp from './footer';
+import CarouselComp from './carousel';
+import Parallax2 from './parallax2';
 
 class App extends React.Component {
   render() {

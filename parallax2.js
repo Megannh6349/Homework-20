@@ -1,6 +1,6 @@
 import React from 'react';
 import { Parallax } from 'react-materialize';
-import Megan2 from './img/megan2.jpg';
+import Megan2 from './megan2.jpg';
 
 class Parallax2 extends React.Component {
     render() {

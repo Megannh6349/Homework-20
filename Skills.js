@@ -1,8 +1,8 @@
 import React from 'react';
 import './App.css';
-import NavbarComp from './components/navbar.js';
-import SkillsPage from './components/skillsPage.js';
-import FooterComp from './components/footer.js';
+import NavbarComp from './navbar.js';
+import SkillsPage from './skillsPage.js';
+import FooterComp from './footer.js';
 
 
 

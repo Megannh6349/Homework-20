@@ -1,8 +1,8 @@
 import React from 'react';
 import './App.css';
-import NavbarComp from './components/navbar';
-import ProjectsPage from './components/projectsPage'
-import FooterComp from './components/footer';
+import NavbarComp from './navbar';
+import ProjectsPage from './projectsPage'
+import FooterComp from './footer';
 
 
 class Portfolio extends React.Component {
