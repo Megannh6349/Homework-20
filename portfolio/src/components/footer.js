@@ -20,10 +20,10 @@ class FooterComp extends React.Component {
                     <h5 className="white-text">
                         Megan Henning
                     </h5>
-                    <p className="grey-text text-lighten-4">
+                    <div className="grey-text text-lighten-4">
                         <p><i className="material-icons">contact_mail</i><a target="_blank" rel="noopener noreferrer" href="mailto:megannh6349@gmail.com" >megannh6349@gmail.com</a></p>
                         <p><i className="material-icons">contact_phone</i>(732) 236-0920</p>
-                    </p>
+                    </div>
                 </div>
             </div>
         </Footer>

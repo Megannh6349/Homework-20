@@ -6,7 +6,7 @@ class NavbarComp extends React.Component {
         return (
             <Navbar className="cyan lighten-2"
                 alignLinks="right"
-                brand={<a href="https://megannh6349.github.io/Homework-20/" alt="Link to top" style={{ marginLeft: '2%' }}>Megan Henning</a>}
+                brand={<a href="/" alt="Link to " style={{ marginLeft: '2%' }}>Megan Henning</a>}
                 id="mobile-nav"
                 menuIcon={<Icon>menu</Icon>}
                 options={{
